@@ -1,7 +1,7 @@
 const express = require('express');
 const UserController = require('./controllers/UserController');
 const DiceController = require('./controllers/DiceController');
-// const SorteioController = require('./controllers/SorteioController');
+
 const AuthController = require('./controllers/AuthController');
 const SortController = require('./controllers/SortController');
 
