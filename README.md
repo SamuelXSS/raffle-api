@@ -1,6 +1,7 @@
-# Prag-API
+# Raffle API
 
-API REST for React Native: Pragmenos application. Based in NodeJS.
+API REST for a Raffle/Draw/Dice project.
+NodeJS API REST
 
 ## Installation
 
