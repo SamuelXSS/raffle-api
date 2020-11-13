@@ -26,10 +26,11 @@ module.exports = {
                     })
                     return res.json(userNumber)
                 } else{
-                    return res.status(401).json('Esse número já está sendo usado')
+                    return res.json('Esse número já está sendo usado')
                 }
             } else{
-                return res.status(401).json('Você já está participando deste sorteio')
+                Dice.truncate()
+                return res.json('Você já está participando deste sorteio')
             }
         }
     }

@@ -18,6 +18,7 @@ module.exports = {
             if(bcrypt.compareSync(pass, user.pass)){
                 const payload = { id: user.id, user: user.username, name: user.name }
                 res.json({
+                    id: user.id,
                     name: user.name,
                     email: user.email,
                     username: user.username,
