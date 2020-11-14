@@ -13,6 +13,8 @@ yarn
 
 ## Usage
 
+[Insomnia Project](https://gist.github.com/SamuelXSS/688109dc9ddd5cff62c5dbb6006826fd)
+
 Update the .env-example file with
 ```
 #DB CONFIGS
@@ -26,6 +28,7 @@ APP_PORT=YOUR_APP_PORT
 APP_SECRET=YOUR_APP_HASH_SECRET
 ```
 then rename it to .env
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
